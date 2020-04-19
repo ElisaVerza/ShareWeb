@@ -24,16 +24,19 @@ body {
     align-items: center;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-gap: 1% 1%;
+    margin: 5% 1% auto 1%;
+    width: 100%;
+}
+
 .wallpaper {
-    background-color: #068f95;
-    width: 60vmin;
-    height: 60vmin;
-    margin-left: 60vmax;
-    margin-top: 10vmin;
+    background-color:rgba(6, 143, 149, 0.7);
     color: aliceblue;
     text-align: center;
     font-size: 150%;
-    padding: 2vmin;
     
 }
 
@@ -41,7 +44,6 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 40%;
 }
 
 .box {
@@ -49,12 +51,10 @@ body {
     animation-iteration-count: 1;
     background: url("./pen.png"), url("./laptop.png");
     background-repeat: no-repeat;
-    background-size: 40%, cover;
-    margin-top: 25%;
-    margin-left: 10%;
+    background-size: 10%, contain;
+    background-position:center;
     transform-origin: bottom;
-    width: 40vmin;
-    height: 40vmin;
+    /*height: 40vmin;*/
 }
 
 .bounce-4 {
