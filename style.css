@@ -11,6 +11,7 @@ body {
     /*background-color: rgba(255, 255, 255, 0.3);*/
     font-size: 300%;
     background: url("./logo.png"), url("./title-background.png");
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-size: contain, cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -33,11 +34,11 @@ body {
 }
 
 .wallpaper {
-    background-color:rgba(6, 143, 149, 0.7);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(6, 143, 149, 0.7);
     color: aliceblue;
     text-align: center;
     font-size: 150%;
-    
 }
 
 .stage {
