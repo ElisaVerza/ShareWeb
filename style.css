@@ -39,6 +39,9 @@ body {
     color: aliceblue;
     text-align: center;
     font-size: 150%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .stage {
@@ -50,12 +53,12 @@ body {
 .box {
     animation-duration: 2s;
     animation-iteration-count: 1;
-    background: url("./pen.png"), url("./laptop.png");
+    background: url("./computer-gif-01.gif");
     background-repeat: no-repeat;
-    background-size: 10%, contain;
+    background-size: 100%, cover;
     background-position:center;
     transform-origin: bottom;
-    /*height: 40vmin;*/
+    height: 67vmin;
 }
 
 .bounce-4 {
