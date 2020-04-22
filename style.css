@@ -36,15 +36,13 @@ body {
 .wallpaper {
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
     background-color: rgba(6, 143, 149, 0.7);
-    color: aliceblue;
-    text-align: center;
-    font-size: 150%;
+    color: black;
+    font-size: 200%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     border: 1px solid;
     border-color: darkorange;
-    height: 40vmin;
 }
 
 .stage {
@@ -56,10 +54,10 @@ body {
 .box {
     animation-duration: 2s;
     animation-iteration-count: 1;
-    background: url("./computer-gif-01.gif");
+    background: url("./computer-gif.gif");
     background-repeat: no-repeat;
     background-size: 100%, cover;
-    background-position:center;
+    background-position: center;
     transform-origin: bottom;
     height: 67vmin;
 }
