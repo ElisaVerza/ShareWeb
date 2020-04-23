@@ -28,10 +28,9 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 48% 48%;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1% 1%;
     margin: 5% 1% auto 1%;
-    width: 100%;
 }
 
 .wallpaper {
@@ -46,45 +45,32 @@ body {
     border-color: darkorange;
 }
 
-.stage {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
 .box {
-    animation-duration: 2s;
-    animation-iteration-count: 1;
     background: url("./computer-gif.gif");
     background-repeat: no-repeat;
     background-size: 100%, cover;
     background-position: center;
-    transform-origin: bottom;
-    height: 67vmin;
 }
 
-.bounce-4 {
-    animation-timing-function: ease;
+/*FOTO PERSONALI*/
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-@keyframes bounce-4 {
-    0% {
-        transform: scale(1,1) translateY(0);
-    }
-
-    10% {
-        transform: scale(1.1,.9) translateY(0);
-    }
-
-    30% {
-        transform: scale(.9,1.1) translateY(-100px);
-    }
-
-    50% {
-        transform: scale(1,1) translateY(0);
-    }
-
-    100% {
-        transform: scale(1,1) translateY(0);
-    }
+.photo-didascalia {
+    top: 80%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.photo-desc {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(6, 143, 149, 0.7);
+    color: black;
+    font-size: 200%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid;
+    border-color: darkorange;
 }
