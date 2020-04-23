@@ -42,11 +42,18 @@ hr {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1% 1%;
+    margin: 5% 1% 1% 1%;
+}
+
+.grid-container-p {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1% 1%;
     margin: 1%;
 }
 
 .wallpaper {
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
     background-color: rgba(6, 143, 149, 0.7);
     color: black;
     font-size: 200%;
@@ -85,4 +92,5 @@ hr {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    text-align: center;
 }
