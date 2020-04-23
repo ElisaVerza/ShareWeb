@@ -26,11 +26,23 @@ body {
     align-items: center;
 }
 
+.section-title {
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 300%;
+    text-align: center;
+}
+
+hr {
+    width: 10%;
+    border: 1px solid darkorange;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1% 1%;
-    margin: 5% 1% auto 1%;
+    margin: 1%;
 }
 
 .wallpaper {
@@ -54,9 +66,11 @@ body {
 
 /*FOTO PERSONALI*/
 .photo {
+    background-color: rgba(255, 130, 36, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 .photo-didascalia {
     top: 80%;
@@ -71,6 +85,4 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border: 1px solid;
-    border-color: darkorange;
 }
