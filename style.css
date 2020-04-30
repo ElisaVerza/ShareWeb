@@ -2,10 +2,10 @@
 
 body {
     font-family: 'Baloo Paaji 2', cursive;
-    background: url("./background-7.png");
+    background: url('./background.png'), url('./background-4.jpg');
+    background-repeat: repeat, no-repeat;
     background-color: #fffffe;
-    background-size: cover, cover;
-    background-repeat: no-repeat;
+    background-size: contain;
     margin: 0;
 }
 .title {
@@ -65,7 +65,7 @@ hr {
 }
 
 .box {
-    background: url("./computer-gif-05.gif");
+    background: url("./prova.gif");
     background-repeat: no-repeat;
     background-size: 100%, cover;
     background-position: center;
