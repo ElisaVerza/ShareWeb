@@ -2,10 +2,10 @@
 
 body {
     font-family: 'Baloo Paaji 2', cursive;
-    background: url('./background.png'), url('./background-4.jpg');
-    background-repeat: repeat, no-repeat;
+    background: url('./background.png'), linear-gradient(rgba(0, 143, 151, 0.5), white);
+    background-repeat: repeat;
     background-color: #fffffe;
-    background-size: contain;
+    background-size: auto;
     margin: 0;
 }
 .title {
@@ -45,6 +45,13 @@ hr {
     grid-gap: 1% 1%;
     margin: 15% 1% 1% 1%;
 }
+.inner-grid-container {
+    font-size: 150%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1% 1%;
+}
 
 .grid-container-p {
     display: grid;
@@ -53,27 +60,31 @@ hr {
     margin: 1%;
 }
 
-.wallpaper {
+.wallpaper-b {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
     background-color: rgba(6, 143, 149, 0.7);
     color: black;
-    font-size: 200%;
+    text-align: center;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     border: 1px solid;
     border-color: darkorange;
 }
-
-.box {
-    background: url("./prova.gif");
-    background-repeat: no-repeat;
-    background-size: 100%, cover;
-    background-position: center;
+.wallpaper-o {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 130, 36, 0.7);
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid;
+    border-color: rgba(6, 143, 149, 0.7);
 }
 
-/*FOTO PERSONALI*/
-.photo {
+    /*FOTO PERSONALI*/
+    .photo {
     background-color: rgba(255, 130, 36, 0.7);
     display: flex;
     justify-content: center;
