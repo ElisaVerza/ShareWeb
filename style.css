@@ -100,6 +100,9 @@ hr {
     align-items: center;
     border: 1px solid;
     border-color: darkorange;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .flip-card-back {
@@ -147,6 +150,9 @@ hr {
     align-items: center;
     border: 1px solid;
     border-color: rgba(6, 143, 149, 0.7);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .flip-card-back-o {
