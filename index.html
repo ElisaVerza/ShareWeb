@@ -5,18 +5,18 @@
     <link rel="stylesheet" href="style.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-<script>
-    window.onscroll = function() {scrolling()};
+<body onscroll="scrolling()">
+    <script>
 
-    var header = document.getElementById("duck");
-
-    function scrolling() {
-        header.style.backgroundColor("white");
-
-    }
+        function scrolling() {
+            if (window.pageYOffset > 0) {
+                document.getElementById("duck").style.backgroundColor = "rgba(255, 130, 36, 0.9)";
+            }
+            else {
+                document.getElementById("duck").style.backgroundColor = "rgba(255, 255, 255, 0)";
+            }
+        }
     </script>
-
     <div class="title" id="duck">
         <div style="margin-left: 10%;">
             S H A R E W E B
@@ -24,7 +24,7 @@
         </div>
     </div>
     <div class="grid-container">
-        <div style="display: flex; justify-content:center; align-items:center;">
+        <div style="display: flex; justify-content:center; align-items:center; width: 100%;">
             <img src="./computer.gif">
         </div>
         <div style="display: grid;">

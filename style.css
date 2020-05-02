@@ -11,11 +11,12 @@ body {
 
 .title {
     /*background-color: rgba(255, 255, 255, 0.3);*/
+    z-index: 2;
     position: fixed;
     top: 0;
     left: 0;
     font-size: 300%;
-    background-image: url("./logo.png"), url("./title-background.png");
+    background: url("./logo.png"), url("./title-background.png");
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-size: contain, cover;
     background-repeat: no-repeat;
@@ -26,6 +27,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    transition: 2s ease;
 }
 
 .section-title {
