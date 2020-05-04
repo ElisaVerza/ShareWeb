@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="style.css" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onscroll="scrolling()">
+    <script>
+
+        function scrolling() {
+            if (window.pageYOffset > 0) {
+                document.getElementById("duck").style.backgroundColor = "rgba(255, 130, 36, 0.9)";
+            }
+            else {
+                document.getElementById("duck").style.backgroundColor = "rgba(255, 255, 255, 0)";
+            }
+        }
+    </script>
+    <div class="title" id="duck">
+        <div style="margin-left: 10%;">
+            S H A R E W E B
+            <div style="font-size:50%; font-style: italic;">Dedicata alla realizzazione dei tuoi sogni e della tua professionalità </div>
+        </div>
+    </div>
+
+    <div class="grid-container-mob">
+        <div class="main-tile"><h1>L'innovazione</h1></div>
+        <div class="main-tile" style="background-image: url('./avatar.svg');"></div>
+        <div class="main-tile" style="background-image: url('./file.svg');"></div>
+        <div class="main-tile"><h1>Nelle tue mani</h1></div>
+    </div>
+
+        <div style="margin-top: 10%; margin-bottom: 2%;">
+            <hr>
+            <div class="section-title"> I L  N O S T R O  T E A M</div>
+            <hr>
+        </div>
+
+        <div class="grid-container-p">
+            <div class="photo-desc">
+                <div style="margin-left: 2%; margin-right: 2%;">
+                    "Un buon marketer vede i consumatori come esseri umani completi, con tutte le sfaccettature proprie delle persone reali. ..."
+                </div>
+            </div>
+            <div class="photo">
+                <img style="margin: 2%;" src="persona1.jpg">
+            </div>
+        </div>
+        <div class="grid-container-p">
+            <div class="photo">
+                <img style="margin: 2%;" src="persona2.jpg">
+            </div>
+            <div class="photo-desc">
+                <div style="margin-left: 2%; margin-right: 2%;">
+                    "Un buon marketer vede i consumatori come esseri umani completi, con tutte le sfaccettature proprie delle persone reali. ..."
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div style="margin: 0; grid-template-columns: 2fr 1fr;" class="grid-container-p">
+                <div>
+                    <h3>CONTATTI</h3>
+                    <div style="margin: 0;grid-template-columns: 1fr 1fr; width: 100%;column-gap: 0;" class="grid-container-p">
+                        <h4 style="padding-left: 35%;">Fabio Quacquerelli</h4>
+                        <p style="padding-right: 35%;">Tel: "telefono qui" <br> e-mail : "email qui"</p>
+                    </div>
+                    <hr>
+                    <div style="margin: 0;grid-template-columns: 1fr 1fr; width: 100%;column-gap: 0;" class="grid-container-p">
+                        <h4 style="padding-left: 35%;">Valerio Barsanti</h4>
+                        <p style="padding-right: 35%;">Tel: "telefono qui" <br> e-mail : "email qui"</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>I NOSTRI SOCIAL</h3>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>

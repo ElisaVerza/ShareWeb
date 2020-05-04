@@ -233,3 +233,36 @@ hr {
     background: linear-gradient(#be1474, #dc1654, #f7941d);
     color: white;
 }
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13%;
+}
+
+/*MOBILE*/
+.grid-container-mob {
+    font-size: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1% 1%;
+    margin: 1%;
+}
+.main-tile {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(6, 143, 149, 0.7);
+    color: black;
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.main-tile:nth-of-type(1) {
+    background-color: rgba(255, 130, 36, 0.7);
+}
