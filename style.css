@@ -266,3 +266,70 @@ hr {
 .main-tile:nth-of-type(1) {
     background-color: rgba(255, 130, 36, 0.7);
 }
+
+/* SOCIAL BAR LEFT */
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 5%;
+    height: 40%;
+}
+  
+  
+.icon-bar a {
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+    color: white;
+    width: 100%;
+    height: 20%;
+    border-radius: 0 10% 10% 0;
+    border: black solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.social-separator{
+    display: block;
+    height: 5%;
+}
+  
+
+.icon-bar a:hover {
+    opacity: 0.7;
+    width: 110%;
+}
+  
+.facebook {
+    background-image: url(./fb.svg);
+    background-color: #3b5998;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.instagram{
+    background-image: url(./ig.svg);
+    background-color: #C13584;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mail {
+    background-image: url(./mail.svg);
+    background-color: #1DA1F2;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.phone {
+    background-image: url(./phone.svg);
+    background-color: #f7a41e;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
