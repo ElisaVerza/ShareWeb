@@ -3,7 +3,7 @@
 body {
     font-family: 'Baloo Paaji 2', cursive;
     background: url('./background.png'), linear-gradient(rgba(0, 143, 151, 0.5), white);
-    background-repeat: repeat;
+    background-repeat: repeat , no-repeat;
     background-color: #fffffe;
     background-size: auto;
     margin: 0;
@@ -21,7 +21,7 @@ body {
     background-size: contain, cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 20%;
+    height: fit-content;
     border-bottom: 1px ridge;
     border-color: darkorange;
     display: flex;
@@ -49,18 +49,28 @@ hr {
     margin: 13% 1% 1% 1%;
 }
 
+@media (max-width:768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1% 1%;
+        margin: 100vmax 1% 1% 1%;
+    }
+}
+
 .inner-grid-container {
     font-size: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 40vw 40vw;
     grid-gap: 2% 2%;
+    height: 40vw;
 }
 
 .grid-container-p {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1% 1%;
-    margin: 1%;
+    justify-content: center;
+    align-items: center;
 }
 
 /*ROTATION TILE*/
@@ -194,6 +204,22 @@ hr {
     justify-content: flex-start;
     align-items: center;
     text-align: center;
+}
+
+.contacts{
+    width: 100%;
+    background: url("./title-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top: 1px ridge;
+    border-color: darkorange;
+    color: black;
+    text-align: center;
+    border-radius: 5%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 /* FOOOTER */
