@@ -21,7 +21,7 @@ body {
     background-size: contain, cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: fit-content;
+    height: 20%;
     border-bottom: 1px ridge;
     border-color: darkorange;
     display: flex;
@@ -54,16 +54,16 @@ hr {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1% 1%;
-        margin: 100vmax 1% 1% 1%;
+        margin: 13% 1% 1% 1%;
     }
 }
 
 .inner-grid-container {
     font-size: 100%;
     display: grid;
-    grid-template-columns: 40vw 40vw;
+    grid-template-columns: 30vw 30vw;
     grid-gap: 2% 2%;
-    height: 40vw;
+    height: 30vw;
 }
 
 .grid-container-p {
