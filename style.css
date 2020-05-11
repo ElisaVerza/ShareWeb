@@ -61,9 +61,9 @@ hr {
 .inner-grid-container {
     font-size: 100%;
     display: grid;
-    grid-template-columns: 30vw 30vw;
+    grid-template-columns: 40vw 40vw;
     grid-gap: 2% 2%;
-    height: 30vw;
+    height: 20vw;
 }
 
 .grid-container-p {
@@ -116,6 +116,7 @@ hr {
 }
 
 .flip-card-back {
+    font-size: 150%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
     background-color: rgba(6, 143, 149, 0.7);
     border: 1px solid;
@@ -160,12 +161,15 @@ hr {
     align-items: center;
     border: 1px solid;
     border-color: rgba(6, 143, 149, 0.7);
-    background-size: contain;
+    background-size: 40%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .flip-card-back-o {
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
     background-color: rgba(255, 130, 36, 0.7);
     border: 1px solid;
