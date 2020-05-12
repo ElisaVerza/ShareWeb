@@ -32,7 +32,6 @@ body {
 
 .section-title {
     font-weight: bold;
-    font-style: oblique;
     font-size: 300%;
     text-align: center;
 }
@@ -63,7 +62,7 @@ hr {
     display: grid;
     grid-template-columns: 40vw 40vw;
     grid-gap: 2% 2%;
-    height: 20vw;
+    height: 15vw;
 }
 
 .grid-container-p {
@@ -113,6 +112,7 @@ hr {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 3%;
 }
 
 .flip-card-back {
@@ -127,6 +127,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 3%;
 }
 
 .flip-card-inner-o {
@@ -161,9 +162,10 @@ hr {
     align-items: center;
     border: 1px solid;
     border-color: rgba(6, 143, 149, 0.7);
-    background-size: 40%;
+    background-size: 30%;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 3%;
 }
 
 .flip-card-back-o {
@@ -180,6 +182,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 3%;
 }
 
 
