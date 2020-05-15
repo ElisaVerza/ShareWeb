@@ -57,6 +57,15 @@ hr {
     }
 }
 
+.grid-container-perte {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1% 1%;
+    margin: 1% 0 5% 15%;
+    height: 15vmax;
+    width: 70%;
+}
+
 .inner-grid-container {
     font-size: 100%;
     display: grid;
