@@ -9,6 +9,13 @@ body {
     margin: 0;
 }
 
+.my-h1{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
 .title {
     /*background-color: rgba(255, 255, 255, 0.3);*/
     z-index: 2;
@@ -60,10 +67,10 @@ hr {
 .grid-container-perte {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1% 1%;
-    margin: 5% 0 2% 15%;
-    height: 15vmax;
-    width: 70%;
+    grid-gap: 3% 3%;
+    margin: 2% 25% 0 25%;
+    height: 25vw;
+    width: 50vw;
 }
 
 .inner-grid-container {
