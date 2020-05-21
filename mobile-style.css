@@ -93,7 +93,8 @@ hr {
 }
 
 .slider {
-    width: 75%;
+    width: 80%;
+    overflow: hidden;
     text-align: center;
     overflow: hidden;
 }
@@ -123,8 +124,8 @@ hr {
     .slides > div {
         scroll-snap-align: start;
         flex-shrink: 0;
-        width: 300px;
-        height: 300px;
+        width: 100%;
+        height: 100%;
         margin-right: 50px;
         border-radius: 10px;
         background: transparent;
@@ -136,26 +137,6 @@ hr {
         justify-content: center;
         align-items: center;
         font-size: 100px;
-    }
-
-        .slides > div:target {
-            /*   transform: scale(0.8); */
-        }
-
-.author-info {
-    background: rgba(0, 0, 0, 0.75);
-    color: white;
-    padding: 0.75rem;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    margin: 0;
-}
-
-    .author-info a {
-        color: white;
     }
 
 
@@ -470,9 +451,9 @@ hr {
 }
 
 .icon-appear{
-    background-image: url(./fb.svg);
-    background-color: #ffee04;
-    background-size: 50%;
+    background-image: url(./contact.svg);
+    background-color: darkorange;
+    background-size: 70%;
     background-repeat: no-repeat;
     background-position: center;
 }
