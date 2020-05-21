@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css" media="screen">
 </head>
-<body onscroll="scrolling()">
+<body onscroll="scrolling()" id="stocazzo">
     <script>
 
         var width = window.innerWidth
@@ -25,29 +25,29 @@
             }
         }
 
-        function rotate(id1,id2){
+        function rotate(id1, id2) {
             document.getElementById(id1).style.transform = "rotateY(180deg)";
             document.getElementById(id2).style.transform = "rotateY(-180deg)";
         }
 
-        function derotate(id1,id2){
+        function derotate(id1, id2) {
             document.getElementById(id1).style.transform = "rotateY(0)";
             document.getElementById(id2).style.transform = "rotateY(0)";
         }
 
-        function singleRotate(id1){
+        function singleRotate(id1) {
             document.getElementById(id1).style.transform = "rotateY(180deg)";
         }
 
-        function singleDerotate(id1){
+        function singleDerotate(id1) {
             document.getElementById(id1).style.transform = "rotateY(0)";
         }
 
-        function writeFile(id1){
+        function writeFile(id1) {
 
             var fh = fopen("./test.txt", 3); // Open the file for writing
-        
-            if(fh!=-1){ // If the file has been successfully opened
+
+            if (fh != -1) { // If the file has been successfully opened
 
                 var str = document.getElementById(id1).value;
 
@@ -60,6 +60,7 @@
         }
 
     </script>
+
     <div class="title" id="duck">
         <div style="margin-left: 10%;">
             S H A R E W E B
@@ -95,7 +96,7 @@
                 <p>Tel: 3321453678 <br> e-mail : contact@gmail.com</p>
             </div>
         </div>
-        
+
     </div>
 
     <div style="margin-top: 10%; margin-bottom: 2%;">
@@ -107,14 +108,14 @@
     <div style="display: grid; justify-content: center; align-items: center; margin-top: 5%;">
         <div class="inner-grid-container">
             <div onmouseover="rotate('flipcard1','flipcard2')" onmouseout="derotate('flipcard1','flipcard2')" class="flip-card">
-                <div id = "flipcard1" class="flip-card-inner">
+                <div id="flipcard1" class="flip-card-inner">
                     <div class="flip-card-front">
                         <h1>Chi siamo? come è composta la ShareWeb?</h1>
                     </div>
                     <div class="flip-card-back">
-                        <div style= "margin: 2%;">
-                        La ShareWeb è una agenzia di web marketing composta da una squadra di consulenti aziendali e giovani ingegneri pronti a condividere
-                        le conoscenze in continuo aggiornamento, le proprie esperienze ed abilità innovative, nel campo del web marketing, con la tua realtà aziendale.                    
+                        <div style="margin: 2%;">
+                            La ShareWeb è una agenzia di web marketing composta da una squadra di consulenti aziendali e giovani ingegneri pronti a condividere
+                            le conoscenze in continuo aggiornamento, le proprie esperienze ed abilità innovative, nel campo del web marketing, con la tua realtà aziendale.
                         </div>
                     </div>
                 </div>
@@ -130,13 +131,13 @@
         </div>
         <div class="inner-grid-container" style="margin-top: 2%;">
             <div onmouseover="rotate('flipcard3','flipcard4')" onmouseout="derotate('flipcard3','flipcard4')" class="flip-card">
-                <div id = "flipcard3" class="flip-card-inner-o">
+                <div id="flipcard3" class="flip-card-inner-o">
                     <div class="flip-card-front-o" style="background-image:url('./electronics.png');"></div>
                     <div class="flip-card-back-o" style="background-image:url('./electronics-a.png'); background-size: 25%;"></div>
                 </div>
             </div>
             <div onmouseover="rotate('flipcard3','flipcard4')" onmouseout="derotate('flipcard3','flipcard4')" class="flip-card">
-                <div id = "flipcard4" class="flip-card-inner">
+                <div id="flipcard4" class="flip-card-inner">
                     <div class="flip-card-front">
                         <h1>Dove trovo la ShareWeb?</h1>
 
@@ -178,7 +179,7 @@
         </div>
         <div class="inner-grid-container" style="margin-top: 2%; margin-bottom: 2%;">
             <div onmouseover="rotate('flipcard7','flipcard8')" onmouseout="derotate('flipcard7','flipcard8')" class="flip-card">
-                <div id = "flipcard7" class="flip-card-inner-o">
+                <div id="flipcard7" class="flip-card-inner-o">
                     <div class="flip-card-front-o" style="background-image:url('./occupation.png');"></div>
                     <div class="flip-card-back-o" style="background-image:url('./occupation-a.png');"></div>
                 </div>
@@ -210,7 +211,7 @@
     <div class="grid-container-perte">
         <div onmouseover="singleRotate('spec1')" onmouseout="singleDerotate('spec1')" class="flip-card">
             <div id="spec1" class="flip-card-inner">
-                <div class="flip-card-front" style = "background-image: url('./web.svg'); background-size: 40%; align-items: flex-end;">
+                <div class="flip-card-front" style="background-image: url('./web.svg'); background-size: 40%; align-items: flex-end;">
                     <h1 class="my-h1">Siti statici&Siti dinamici</h1>
                 </div>
                 <div style="font-size: 150%;" class="flip-card-back">
@@ -220,21 +221,21 @@
         </div>
         <div onmouseover="singleRotate('spec2')" onmouseout="singleDerotate('spec2')" class="flip-card">
             <div id="spec2" class="flip-card-inner-o">
-                <div class="flip-card-front-o" style = "background-image: url('./analysis.svg'); background-size: 40%; align-items: flex-end;">
+                <div class="flip-card-front-o" style="background-image: url('./analysis.svg'); background-size: 40%; align-items: flex-end;">
                     <h1 class="my-h1">Posizionamento SEO</h1>
                 </div>
                 <div style="font-size: 150%;" class="flip-card-back-o">
-                    <div style= "margin: 2%;">
+                    <div style="margin: 2%;">
                         Soluzioni testuali che, tramite il corretto studio delle parole chiave, porteranno il tuo sito alla visualizzazione sino alla prima pagina.
-                   </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div  class="grid-container-perte">
+    <div class="grid-container-perte">
         <div onmouseover="singleRotate('spec3')" onmouseout="singleDerotate('spec3')" class="flip-card">
             <div id="spec3" class="flip-card-inner-o">
-                <div class="flip-card-front-o" style = "background-image: url('./fingers.svg'); background-size: 40%; align-items: flex-end;">
+                <div class="flip-card-front-o" style="background-image: url('./fingers.svg'); background-size: 40%; align-items: flex-end;">
                     <h1 class="my-h1">Marketing</h1>
                 </div>
                 <div style="font-size: 150%;" class="flip-card-back-o">
@@ -242,20 +243,26 @@
                 </div>
             </div>
         </div>
-        <div onmouseover="singleRotate('spec4')" onmouseout="singleDerotate('spec4')"  class="flip-card">
+        <div onmouseover="singleRotate('spec4')" onmouseout="singleDerotate('spec4')" class="flip-card">
             <div id="spec4" class="flip-card-inner">
-                <div class="flip-card-front"  style = "background-image: url('./business.svg'); background-size: 40%; align-items: flex-end;">
+                <div class="flip-card-front" style="background-image: url('./business.svg'); background-size: 40%; align-items: flex-end;">
                     <h1 class="my-h1">Social media</h1>
                 </div>
                 <div style="font-size: 150%;" class="flip-card-back">
-                    <div style= "margin: 2%;">
+                    <div style="margin: 2%;">
                         Gestione dei contenuti e delle pagine Facebook, Instagram, Twitter, Linked-In e TikTok.
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
-    
+    <form action="action.php" method="post">
+        What is your name?<br>
+        <input type="text" name="field1"><br>
+        <input type="text" name="field2"><br>
+        <input type="submit" value="Submit">
+    </form>
+
+
 </body>
 </html>
