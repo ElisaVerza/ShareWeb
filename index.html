@@ -8,6 +8,14 @@
 <body onscroll="scrolling()">
     <script>
 
+        var width = window.innerWidth
+            || document.documentElement.clientWidth
+            || document.body.clientWidth;
+
+        if(width <= 768){
+            document.location = "index-mobile.html";
+        }
+
         function scrolling() {
             if (window.pageYOffset > 0) {
                 document.getElementById("duck").style.backgroundColor = "rgba(255, 130, 36, 0.9)";
