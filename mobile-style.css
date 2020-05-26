@@ -14,6 +14,9 @@ body {
     margin-bottom: 2%;
     width: 100%;
 }
+.h1-card {
+    font-size: 65%;
+}
 
 .title {
     /*background-color: rgba(255, 255, 255, 0.3);*/
@@ -46,7 +49,7 @@ body {
 
 .section-title {
     font-weight: bold;
-    font-size: 300%;
+    font-size: 100%;
     text-align: center;
 }
 
@@ -76,7 +79,7 @@ hr {
     display: grid;
     grid-template-columns: 40vw 40vw;
     grid-gap: 2% 2%;
-    height: 15vw;
+    height: 30vw;
 }
 
 .grid-container-p {
@@ -203,10 +206,11 @@ hr {
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 3%;
+    
 }
 
 .flip-card-back {
-    font-size: 100%;
+    font-size: 30%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
     background-color: rgba(6, 143, 149, 0.7);
     border: 1px solid;
