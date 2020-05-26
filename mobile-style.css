@@ -79,7 +79,7 @@ hr {
     display: grid;
     grid-template-columns: 40vw 40vw;
     grid-gap: 2% 2%;
-    height: 30vw;
+    height: 40vw;
 }
 
 .grid-container-p {
@@ -210,7 +210,8 @@ hr {
 }
 
 .flip-card-back {
-    font-size: 30%;
+    font-size: 40%;
+    font-weight: bold;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
     background-color: rgba(6, 143, 149, 0.7);
     border: 1px solid;
@@ -256,7 +257,7 @@ hr {
     align-items: center;
     border: 1px solid;
     border-color: rgba(6, 143, 149, 0.7);
-    background-size: 30%;
+    background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 3%;
@@ -264,7 +265,7 @@ hr {
 
 .flip-card-back-o {
     background-repeat: no-repeat;
-    background-size: 30%;
+    background-size: 60%;
     background-position: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
     background-color: rgba(255, 130, 36, 0.7);
