@@ -13,6 +13,8 @@ body {
     color: white;
     margin-bottom: 2%;
     width: 100%;
+    height: 30%;
+    font-size: 100%;
 }
 .h1-card {
     font-size: 65%;
@@ -68,10 +70,8 @@ hr {
 .grid-container-perte {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 3% 3%;
-    margin: 2% 25% 0 25%;
     height: 25vw;
-    width: 50vw;
+    width: 100vw;
 }
 
 .inner-grid-container {
@@ -260,6 +260,7 @@ hr {
 }
 
 .flip-card-back-o {
+    font-weight: bold;
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: center;
@@ -391,6 +392,7 @@ hr {
 /* SOCIAL BAR LEFT */
 .icon-bar {
     position: fixed;
+    z-index: 2;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -401,6 +403,7 @@ hr {
 
 .icon-bar-appear{
     position: fixed;
+    z-index: 2;
     top: 40%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
