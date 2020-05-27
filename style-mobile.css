@@ -8,13 +8,16 @@ body {
     margin: 0;
 }
 
-.my-h1{
+.my-h1 {
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
     margin-bottom: 2%;
     width: 100%;
-    height: 30%;
+    height: 20%;
     font-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .h1-card {
     font-size: 65%;
@@ -70,7 +73,7 @@ hr {
 .grid-container-perte {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 25vw;
+    height: 50vw;
     width: 100vw;
 }
 

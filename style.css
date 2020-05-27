@@ -64,11 +64,11 @@ hr {
 
 .grid-container-perte {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 3% 3%;
-    margin: 2% 25% 0 25%;
-    height: 25vw;
-    width: 50vw;
+    height: 20vw;
+    width: 80vw;
+    margin: 0 10% 3% 10%;
 }
 
 .inner-grid-container {
