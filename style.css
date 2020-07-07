@@ -28,7 +28,6 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    font-size: 250%;
     background: url("./title-background.png");
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-size: cover;
@@ -37,10 +36,12 @@ body {
     height: 25%;
     border-bottom: 1px ridge;
     border-color: darkorange;
-    display: flex;
+    display: inline-flex;
     justify-content: flex-start;
     align-items: center;
     transition: 2s ease;
+    overflow: hidden;
+    font-size: 100%;
 }
 
 .logo{
