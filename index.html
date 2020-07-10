@@ -26,6 +26,7 @@
     </script>
 </head>
 <body onscroll="scrolling()" id="stocazzo">
+    <script src="js/cookie.notice.min.js"></script>
     <script>
 
         var width = window.innerWidth
@@ -84,9 +85,9 @@
 
 <div class="title" id="duck">
     <div class="logo"></div>
-    <div id="fitheader2" style="font-style: italic; height: 100%; margin-top: 8%;">
-        <h4 style="margin: 0;">S H A R E W E B <br></h4>
-        <p style="margin: 0;" >Dedicata alla realizzazione dei tuoi sogni e della tua professionalità</p>
+    <div style="font-style: italic; height: 100%;margin-top: 5%;">
+        <h4 id="fittitle" style="margin: 0;">S H A R E W E B <br></h4>
+        <p id="fitsubtitle" style="margin: 0;" >Dedicata alla realizzazione dei tuoi sogni e della tua professionalità</p>
     </div>
     </div>
 </div>
@@ -282,7 +283,9 @@
     <script src="fittext.js"></script>
     <script type="text/javascript">
         
-        fitText(document.getElementById('fitheader2'),2.5);
+
+        fitText(document.getElementById('fittitle'),1.5);
+        fitText(document.getElementById('fitsubtitle'),2.5);
 
 
 
