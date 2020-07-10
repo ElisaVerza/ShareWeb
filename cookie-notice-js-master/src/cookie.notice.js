@@ -26,9 +26,9 @@
 
         'cookieNoticePosition': 'bottom',
 
-        'learnMoreLinkEnabled': false,
+        'learnMoreLinkEnabled': true,
 
-        'learnMoreLinkHref': '/cookie-banner-information.html',
+        'learnMoreLinkHref': './cookie.html',
 
         'learnMoreLinkText': {
             'it': 'Saperne di più',
@@ -42,8 +42,8 @@
         },
 
         'expiresIn': 30,
-        'buttonBgColor': '#d35400',
-        'buttonTextColor': '#fff',
+        'buttonBgColor': '#e9dbb4',
+        'buttonTextColor': '#000',
         'noticeBgColor': '#000',
         'noticeTextColor': '#fff',
         'linkColor': '#009fdd'
